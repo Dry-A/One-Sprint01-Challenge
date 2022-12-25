@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --corprincipal: #6f0884;
+    --corsegundaria: #e284da;
+    --cortitulo: black;
+}
+
+body {
+    background: var(--corsegundatia);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Brygada 1918',sans-serif  ;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+       
+}
+
+.header h1 {
+   color: #6f0884 ;
+
+}
+
+.header  img {
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto {
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background:transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed var(--cortitulo) ;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3% ;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img {
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 4%;
+}
+
+.container-bnt button {
+    border: 2px solid var(--corprincipal);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--corsegundaria);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    background-color:var(--corprincipal); 
+}
+
+
+.container-bnt button:hover {
+    border: 2px solid var(--corprincipal);
+    transition: 1s all;
+    background-color: var(--corsegundaria);
+    color: var(--corprincipal);
+}
+
+.btn-criptografar{
+    font-size: 20px;
+}
+
+.btn-descriptografar{
+    font-size: 20px;
+}
+
+.btn-copiar {
+    font-size: 20px;
+    border: 2px solid var(--corprincipal);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--corsegundaria);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    background-color:var(--corprincipal); 
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: var(--corprincipal);
+    color: var(--cortitulo);
+}
+
+.rodape h3 {
+    font-size: 16px;
+}
+
+.icons ion-icon {
+    width: 25px;
+    height: 25px;
+    color: rgb(247, 222, 241);
+}
+
+.icons ion-icon:hover {
+    color: var(--corsegundaria);
+}
+
